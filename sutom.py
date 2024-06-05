@@ -8,7 +8,8 @@ mots = mots.dropna(subset=['MotsSA'])
 
 
 def filtered_words(str_match: str)->list:
-    return mots[mots['MotsSA'].str.match(f'^{str_match}$')]
+    liste = mots[mots['MotsSA'].str.match(f'^{str_match}$')]
+    return liste.sort_values('Poids',ascending=False)
 
 
 def supprimer_mots_testes(liste_de_choix: list, mots_testes: list)->list:
