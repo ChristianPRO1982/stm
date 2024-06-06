@@ -89,7 +89,7 @@ while True:
     if mot_teste == "": break;
     mots_testes.append(mot_teste)
 
-    resultats = input("résultat : ")
+    resultats = input("résultat  : ")
     if resultats == "": break;
     resultats = resultats.upper()
     for index, resultat in enumerate(resultats):
