@@ -79,8 +79,10 @@ while True:
     liste_de_choix = liste_de_choix.drop(supprimer_mots_liste_jaune(liste_de_choix, l_jaunes))
 
     print(liste_de_choix)
+    print()
     print("<><><><><>")
-    print(l_jaunes.values(), l_bleues)
+    # print(l_jaunes.values(), l_bleues)
+    print()
 
     mot_teste = input("mot testé : ")
     mot_teste = mot_teste.lower()
