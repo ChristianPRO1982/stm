@@ -1,2 +1,3 @@
 pandas<3
 Unidecode<2
+scrapy
