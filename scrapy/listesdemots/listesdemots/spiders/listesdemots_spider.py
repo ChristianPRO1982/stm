@@ -1561,6 +1561,6 @@ class ListedemotsSpider(scrapy.Spider):
 
         # Trouver le lien vers la page suivante
         # next_page = response.css('a:contains("Page suivante")::attr(href)').get()
-        # if next_page:
+        # if next_page:ABDOFESSIERS
         #     yield response.follow(next_page, self.parse)
 
